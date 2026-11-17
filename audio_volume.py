@@ -12,7 +12,7 @@ RATE = 44100
 CHUNK = 1024
 
 # Voice detection configuration
-THRESHOLD = 2000
+THRESHOLD = 1500
 is_loud = False
 
 # Open microphone stream
