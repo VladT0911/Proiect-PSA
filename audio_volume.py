@@ -17,7 +17,7 @@ VOLUME_THRESHOLD = 1500
 
 # Humming frequency configuration (Hz)
 HUMMING_MIN_FREQ = 80
-HUMMING_MAX_FREQ = 250
+HUMMING_MAX_FREQ = 220
 
 # Detection states
 is_loud = False
@@ -27,7 +27,7 @@ is_humming = False
 stream = audio.open(
     format=FORMAT,
     channels=CHANNELS,
-    rate=RATE,
+    rate=RATE, 
     input=True,
     frames_per_buffer=CHUNK
 )
